@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bom xmlns="http://cyclonedx.org/schema/bom/1.3" serialNumber="urn:uuid:9e8ef6c8-3d8c-4a95-86c3-4e9a3b7c5ae8" version="1">
+<bom xmlns="http://cyclonedx.org/schema/bom/1.3" serialNumber="urn:uuid:2fc1901c-0b7d-4d39-8b8e-b62047778bcc" version="1">
     <metadata>
-        <timestamp>2021-12-14T16:18:27.990Z</timestamp>
+        <timestamp>2021-12-16T16:22:52.607Z</timestamp>
         <tools>
             <tool>
                 <vendor>CycloneDX</vendor>
@@ -6136,33 +6136,6 @@
                 </reference>
             </externalReferences>
         </component>
-        <component type="library" bom-ref="pkg:npm/esprima@4.0.1">
-            <name>esprima</name>
-            <version>4.0.1</version>
-            <description>
-                <![CDATA[ECMAScript parsing infrastructure for multipurpose analysis]]>
-            </description>
-            <hashes>
-                <hash alg="SHA-1">fdca51cee6133895e3c88d535ce49dbff62a4633</hash>
-            </hashes>
-            <licenses>
-                <license>
-                    <id>BSD-2-Clause</id>
-                </license>
-            </licenses>
-            <purl>pkg:npm/esprima@4.0.1</purl>
-            <externalReferences>
-                <reference type="website">
-                    <url>http://esprima.org</url>
-                </reference>
-                <reference type="issue-tracker">
-                    <url>https://github.com/jquery/esprima/issues</url>
-                </reference>
-                <reference type="vcs">
-                    <url>git+https://github.com/jquery/esprima.git</url>
-                </reference>
-            </externalReferences>
-        </component>
         <component type="library" bom-ref="pkg:npm/estraverse@5.3.0">
             <name>estraverse</name>
             <version>5.3.0</version>
@@ -6217,6 +6190,33 @@
                 </reference>
             </externalReferences>
         </component>
+        <component type="library" bom-ref="pkg:npm/esprima@4.0.1">
+            <name>esprima</name>
+            <version>4.0.1</version>
+            <description>
+                <![CDATA[ECMAScript parsing infrastructure for multipurpose analysis]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-1">fdca51cee6133895e3c88d535ce49dbff62a4633</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>BSD-2-Clause</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/esprima@4.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>http://esprima.org</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/jquery/esprima/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/jquery/esprima.git</url>
+                </reference>
+            </externalReferences>
+        </component>
         <component type="library" bom-ref="pkg:npm/optionator@0.8.3">
             <name>optionator</name>
             <version>0.8.3</version>
@@ -6241,6 +6241,28 @@
                 </reference>
                 <reference type="vcs">
                     <url>git://github.com/gkz/optionator.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/prelude-ls@1.1.2">
+            <name>prelude-ls</name>
+            <version>1.1.2</version>
+            <description>
+                <![CDATA[prelude.ls is a functionally oriented utility library. It is powerful and flexible. Almost all of its functions are curried. It is written in, and is the recommended base library for, LiveScript.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-1">21932a549f5e52ffd9a827f570e04be62a97da54</hash>
+            </hashes>
+            <purl>pkg:npm/prelude-ls@1.1.2</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>http://preludels.com</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/gkz/prelude-ls/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/gkz/prelude-ls.git</url>
                 </reference>
             </externalReferences>
         </component>
@@ -6271,79 +6293,30 @@
                 </reference>
             </externalReferences>
         </component>
-        <component type="library" bom-ref="pkg:npm/fast-levenshtein@2.0.6">
-            <name>fast-levenshtein</name>
-            <version>2.0.6</version>
+        <component type="library" bom-ref="pkg:npm/word-wrap@1.2.3">
+            <name>word-wrap</name>
+            <version>1.2.3</version>
             <description>
-                <![CDATA[Efficient implementation of Levenshtein algorithm  with locale-specific collator support.]]>
+                <![CDATA[Wrap words to a specified length.]]>
             </description>
             <hashes>
-                <hash alg="SHA-1">3d8a5c66883a16a30ca8643e851f19baa7797917</hash>
+                <hash alg="SHA-512">1f3fe6acdc22b4d461fc7500b4cfd54ffe551feca00fa0d5ee660a640b473ab6ecf14ee5bcf4bac5fec424a305d2e5b52890a5d07ef4d60dd91aeb3e9ae139bd</hash>
             </hashes>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg:npm/fast-levenshtein@2.0.6</purl>
+            <purl>pkg:npm/word-wrap@1.2.3</purl>
             <externalReferences>
                 <reference type="website">
-                    <url>https://github.com/hiddentao/fast-levenshtein#readme</url>
+                    <url>https://github.com/jonschlinkert/word-wrap</url>
                 </reference>
                 <reference type="issue-tracker">
-                    <url>https://github.com/hiddentao/fast-levenshtein/issues</url>
+                    <url>https://github.com/jonschlinkert/word-wrap/issues</url>
                 </reference>
                 <reference type="vcs">
-                    <url>git+https://github.com/hiddentao/fast-levenshtein.git</url>
-                </reference>
-            </externalReferences>
-        </component>
-        <component type="library" bom-ref="pkg:npm/levn@0.3.0">
-            <name>levn</name>
-            <version>0.3.0</version>
-            <description>
-                <![CDATA[Light ECMAScript (JavaScript) Value Notation - human written, concise, typed, flexible]]>
-            </description>
-            <hashes>
-                <hash alg="SHA-1">3b09924edf9f083c0490fdd4c0bc4421e04764ee</hash>
-            </hashes>
-            <licenses>
-                <license>
-                    <id>MIT</id>
-                </license>
-            </licenses>
-            <purl>pkg:npm/levn@0.3.0</purl>
-            <externalReferences>
-                <reference type="website">
-                    <url>https://github.com/gkz/levn</url>
-                </reference>
-                <reference type="issue-tracker">
-                    <url>https://github.com/gkz/levn/issues</url>
-                </reference>
-                <reference type="vcs">
-                    <url>git://github.com/gkz/levn.git</url>
-                </reference>
-            </externalReferences>
-        </component>
-        <component type="library" bom-ref="pkg:npm/prelude-ls@1.1.2">
-            <name>prelude-ls</name>
-            <version>1.1.2</version>
-            <description>
-                <![CDATA[prelude.ls is a functionally oriented utility library. It is powerful and flexible. Almost all of its functions are curried. It is written in, and is the recommended base library for, LiveScript.]]>
-            </description>
-            <hashes>
-                <hash alg="SHA-1">21932a549f5e52ffd9a827f570e04be62a97da54</hash>
-            </hashes>
-            <purl>pkg:npm/prelude-ls@1.1.2</purl>
-            <externalReferences>
-                <reference type="website">
-                    <url>http://preludels.com</url>
-                </reference>
-                <reference type="issue-tracker">
-                    <url>https://github.com/gkz/prelude-ls/issues</url>
-                </reference>
-                <reference type="vcs">
-                    <url>git://github.com/gkz/prelude-ls.git</url>
+                    <url>git+https://github.com/jonschlinkert/word-wrap.git</url>
                 </reference>
             </externalReferences>
         </component>
@@ -6374,30 +6347,57 @@
                 </reference>
             </externalReferences>
         </component>
-        <component type="library" bom-ref="pkg:npm/word-wrap@1.2.3">
-            <name>word-wrap</name>
-            <version>1.2.3</version>
+        <component type="library" bom-ref="pkg:npm/levn@0.3.0">
+            <name>levn</name>
+            <version>0.3.0</version>
             <description>
-                <![CDATA[Wrap words to a specified length.]]>
+                <![CDATA[Light ECMAScript (JavaScript) Value Notation - human written, concise, typed, flexible]]>
             </description>
             <hashes>
-                <hash alg="SHA-512">1f3fe6acdc22b4d461fc7500b4cfd54ffe551feca00fa0d5ee660a640b473ab6ecf14ee5bcf4bac5fec424a305d2e5b52890a5d07ef4d60dd91aeb3e9ae139bd</hash>
+                <hash alg="SHA-1">3b09924edf9f083c0490fdd4c0bc4421e04764ee</hash>
             </hashes>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg:npm/word-wrap@1.2.3</purl>
+            <purl>pkg:npm/levn@0.3.0</purl>
             <externalReferences>
                 <reference type="website">
-                    <url>https://github.com/jonschlinkert/word-wrap</url>
+                    <url>https://github.com/gkz/levn</url>
                 </reference>
                 <reference type="issue-tracker">
-                    <url>https://github.com/jonschlinkert/word-wrap/issues</url>
+                    <url>https://github.com/gkz/levn/issues</url>
                 </reference>
                 <reference type="vcs">
-                    <url>git+https://github.com/jonschlinkert/word-wrap.git</url>
+                    <url>git://github.com/gkz/levn.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/fast-levenshtein@2.0.6">
+            <name>fast-levenshtein</name>
+            <version>2.0.6</version>
+            <description>
+                <![CDATA[Efficient implementation of Levenshtein algorithm  with locale-specific collator support.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-1">3d8a5c66883a16a30ca8643e851f19baa7797917</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/fast-levenshtein@2.0.6</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/hiddentao/fast-levenshtein#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/hiddentao/fast-levenshtein/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/hiddentao/fast-levenshtein.git</url>
                 </reference>
             </externalReferences>
         </component>
@@ -10361,33 +10361,6 @@
                 </reference>
             </externalReferences>
         </component>
-        <component type="library" bom-ref="pkg:npm/decode-uri-component@0.2.0">
-            <name>decode-uri-component</name>
-            <version>0.2.0</version>
-            <description>
-                <![CDATA[A better decodeURIComponent]]>
-            </description>
-            <hashes>
-                <hash alg="SHA-1">eb3913333458775cb84cd1a1fae062106bb87545</hash>
-            </hashes>
-            <licenses>
-                <license>
-                    <id>MIT</id>
-                </license>
-            </licenses>
-            <purl>pkg:npm/decode-uri-component@0.2.0</purl>
-            <externalReferences>
-                <reference type="website">
-                    <url>https://github.com/SamVerschueren/decode-uri-component#readme</url>
-                </reference>
-                <reference type="issue-tracker">
-                    <url>https://github.com/SamVerschueren/decode-uri-component/issues</url>
-                </reference>
-                <reference type="vcs">
-                    <url>git+https://github.com/SamVerschueren/decode-uri-component.git</url>
-                </reference>
-            </externalReferences>
-        </component>
         <component type="library" bom-ref="pkg:npm/split-on-first@1.1.0">
             <name>split-on-first</name>
             <version>1.1.0</version>
@@ -10412,6 +10385,33 @@
                 </reference>
                 <reference type="vcs">
                     <url>git+https://github.com/sindresorhus/split-on-first.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/decode-uri-component@0.2.0">
+            <name>decode-uri-component</name>
+            <version>0.2.0</version>
+            <description>
+                <![CDATA[A better decodeURIComponent]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-1">eb3913333458775cb84cd1a1fae062106bb87545</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/decode-uri-component@0.2.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/SamVerschueren/decode-uri-component#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/SamVerschueren/decode-uri-component/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/SamVerschueren/decode-uri-component.git</url>
                 </reference>
             </externalReferences>
         </component>
@@ -12742,33 +12742,6 @@
                 </reference>
             </externalReferences>
         </component>
-        <component type="library" bom-ref="pkg:npm/escodegen@1.12.0">
-            <name>escodegen</name>
-            <version>1.12.0</version>
-            <description>
-                <![CDATA[ECMAScript code generator]]>
-            </description>
-            <hashes>
-                <hash alg="SHA-512">4ee03e121b1a9c67267b94f74742fcd2ee2df02a5b5d08de81199fefe14f4c9aed09312b5c579e95b95180741ad45a1f133a98609989fceaa34f0444a7daa09a</hash>
-            </hashes>
-            <licenses>
-                <license>
-                    <id>BSD-2-Clause</id>
-                </license>
-            </licenses>
-            <purl>pkg:npm/escodegen@1.12.0</purl>
-            <externalReferences>
-                <reference type="website">
-                    <url>http://github.com/estools/escodegen</url>
-                </reference>
-                <reference type="issue-tracker">
-                    <url>https://github.com/estools/escodegen/issues</url>
-                </reference>
-                <reference type="vcs">
-                    <url>git+ssh://git@github.com/estools/escodegen.git</url>
-                </reference>
-            </externalReferences>
-        </component>
         <component type="library" bom-ref="pkg:npm/esprima@3.1.3">
             <name>esprima</name>
             <version>3.1.3</version>
@@ -12793,6 +12766,33 @@
                 </reference>
                 <reference type="vcs">
                     <url>git+https://github.com/jquery/esprima.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/escodegen@1.12.0">
+            <name>escodegen</name>
+            <version>1.12.0</version>
+            <description>
+                <![CDATA[ECMAScript code generator]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">4ee03e121b1a9c67267b94f74742fcd2ee2df02a5b5d08de81199fefe14f4c9aed09312b5c579e95b95180741ad45a1f133a98609989fceaa34f0444a7daa09a</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>BSD-2-Clause</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/escodegen@1.12.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>http://github.com/estools/escodegen</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/estools/escodegen/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+ssh://git@github.com/estools/escodegen.git</url>
                 </reference>
             </externalReferences>
         </component>
@@ -13066,33 +13066,6 @@
                 </reference>
             </externalReferences>
         </component>
-        <component type="library" bom-ref="pkg:npm/source-map@0.6.1">
-            <name>source-map</name>
-            <version>0.6.1</version>
-            <description>
-                <![CDATA[Generates and consumes source maps]]>
-            </description>
-            <hashes>
-                <hash alg="SHA-512">52381aa6e99695b3219018334fb624739617513e3a17488abbc4865ead1b7303f9773fe1d0f963e9e9c9aa3cf565bab697959aa989eb55bc16396332177178ee</hash>
-            </hashes>
-            <licenses>
-                <license>
-                    <id>BSD-3-Clause</id>
-                </license>
-            </licenses>
-            <purl>pkg:npm/source-map@0.6.1</purl>
-            <externalReferences>
-                <reference type="website">
-                    <url>https://github.com/mozilla/source-map</url>
-                </reference>
-                <reference type="issue-tracker">
-                    <url>https://github.com/mozilla/source-map/issues</url>
-                </reference>
-                <reference type="vcs">
-                    <url>git+ssh://git@github.com/mozilla/source-map.git</url>
-                </reference>
-            </externalReferences>
-        </component>
         <component type="library" bom-ref="pkg:npm/socks@2.3.3">
             <name>socks</name>
             <version>2.3.3</version>
@@ -13117,6 +13090,33 @@
                 </reference>
                 <reference type="vcs">
                     <url>git+https://github.com/JoshGlazebrook/socks.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/source-map@0.6.1">
+            <name>source-map</name>
+            <version>0.6.1</version>
+            <description>
+                <![CDATA[Generates and consumes source maps]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">52381aa6e99695b3219018334fb624739617513e3a17488abbc4865ead1b7303f9773fe1d0f963e9e9c9aa3cf565bab697959aa989eb55bc16396332177178ee</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>BSD-3-Clause</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/source-map@0.6.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/mozilla/source-map</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/mozilla/source-map/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+ssh://git@github.com/mozilla/source-map.git</url>
                 </reference>
             </externalReferences>
         </component>
